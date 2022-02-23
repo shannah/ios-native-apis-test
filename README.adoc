@@ -1,0 +1,33 @@
+= Test App for iOS Native APIs lib
+
+This repository includes a test application that uses the https://github.com/shannah/ios-native-apis[ios-native-apis library].
+
+== Run Instructions
+
+[source,listing]
+----
+# First install ios-native-apis library
+git clone https://github.com/shannah/ios-native-apis
+cd ios-native-apis
+mvn install
+
+# Then Clone this repo
+git clone https://github.com/shannah/ios-native-apis-test
+
+# Then run the repo
+cd ios-native-apis-test
+
+# On windows
+run.bat
+
+# On Linux/Max
+./run.sh
+----
+
+== Working with Sources
+
+Open the Project in IntelliJ.
+
+== Links
+
+. https://www.codenameone.com[Codename One Website]
